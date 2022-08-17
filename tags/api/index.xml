@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>API on haxxxnotes</title>
-    <link>https://allenjedb.github.io/allenxd.github.io/tags/api/</link>
+    <link>https://allenjedb.github.io/tags/api/</link>
     <description>Recent content in API on haxxxnotes</description>
     <image>
-      <url>https://allenjedb.github.io/allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://allenjedb.github.io/allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://allenjedb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://allenjedb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://allenjedb.github.io/allenxd.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://allenjedb.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bookstore - TryHackMe</title>
-      <link>https://allenjedb.github.io/allenxd.github.io/posts/bookstore/</link>
+      <link>https://allenjedb.github.io/posts/bookstore/</link>
       <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://allenjedb.github.io/allenxd.github.io/posts/bookstore/</guid>
+      <guid>https://allenjedb.github.io/posts/bookstore/</guid>
       <description>&lt;p&gt;Medium rated TryHackMe achine that covers some basic API pentesting, fuzzing the API using our own python script to gain User access and analyzing a C program using &lt;strong&gt;&lt;em&gt;Ghidra&lt;/em&gt;&lt;/strong&gt; to escalate privilege to Root.&lt;/p&gt;</description>
     </item>
     
