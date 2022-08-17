@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on haxxxnotes</title>
-    <link>https://allenxd.github.io/categories/</link>
+    <link>https://allenjedb.github.io/allenxd.github.io/categories/</link>
     <description>Recent content in Categories on haxxxnotes</description>
     <image>
-      <url>https://allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://allenjedb.github.io/allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://allenjedb.github.io/allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://allenxd.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://allenjedb.github.io/allenxd.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proving_Grounds</title>
-      <link>https://allenxd.github.io/categories/proving_grounds/</link>
+      <link>https://allenjedb.github.io/allenxd.github.io/categories/proving_grounds/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://allenxd.github.io/categories/proving_grounds/</guid>
+      <guid>https://allenjedb.github.io/allenxd.github.io/categories/proving_grounds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writeup</title>
-      <link>https://allenxd.github.io/categories/writeup/</link>
+      <link>https://allenjedb.github.io/allenxd.github.io/categories/writeup/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://allenxd.github.io/categories/writeup/</guid>
+      <guid>https://allenjedb.github.io/allenxd.github.io/categories/writeup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>THM</title>
-      <link>https://allenxd.github.io/categories/thm/</link>
+      <link>https://allenjedb.github.io/allenxd.github.io/categories/thm/</link>
       <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://allenxd.github.io/categories/thm/</guid>
+      <guid>https://allenjedb.github.io/allenxd.github.io/categories/thm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Notes</title>
-      <link>https://allenxd.github.io/categories/notes/</link>
+      <link>https://allenjedb.github.io/allenxd.github.io/categories/notes/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://allenxd.github.io/categories/notes/</guid>
+      <guid>https://allenjedb.github.io/allenxd.github.io/categories/notes/</guid>
       <description></description>
     </item>
     
