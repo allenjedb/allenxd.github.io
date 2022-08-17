@@ -1,117 +1,144 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  
-  
-  
-  
-  
   <url>
+    <loc>https://blog.allenxd.com/categories/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/command-injection/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://blog.allenxd.com/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
+  </url><url>
     <loc>https://blog.allenxd.com/posts/noname/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
+  </url><url>
     <loc>https://blog.allenxd.com/posts/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <url>
+  </url><url>
+    <loc>https://blog.allenxd.com/categories/proving_grounds/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/suid/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/categories/writeup/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/lfi/</loc>
+    <lastmod>2022-07-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://blog.allenxd.com/posts/potato/</loc>
     <lastmod>2022-07-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  <url>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/sudo/</loc>
+    <lastmod>2022-07-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/api/</loc>
+    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://blog.allenxd.com/posts/bookstore/</loc>
     <lastmod>2022-01-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <url>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/fuzzing/</loc>
+    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/ghidra/</loc>
+    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/reverse-engineering/</loc>
+    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/categories/thm/</loc>
+    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://blog.allenxd.com/posts/mustacchio/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <url>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/path-variable/</loc>
+    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/xxe/</loc>
+    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/log4j/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://blog.allenxd.com/posts/log4j/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <url>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/marshalsec/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/categories/notes/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/tags/ysoserial/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://blog.allenxd.com/notes/</loc>
     <lastmod>2021-07-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://blog.allenxd.com/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
-  
-  
-  
-  
 </urlset>
