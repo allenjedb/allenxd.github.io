@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Log4j on haxxxnotes</title>
-    <link>https://allenjedb.github.io/tags/log4j/</link>
+    <link>https://blog.allenxd.com/tags/log4j/</link>
     <description>Recent content in Log4j on haxxxnotes</description>
     <image>
-      <url>https://allenjedb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://allenjedb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://blog.allenxd.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.allenxd.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://allenjedb.github.io/tags/log4j/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.allenxd.com/tags/log4j/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Log4Shell</title>
-      <link>https://allenjedb.github.io/posts/log4j/</link>
+      <link>https://blog.allenxd.com/posts/log4j/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://allenjedb.github.io/posts/log4j/</guid>
+      <guid>https://blog.allenxd.com/posts/log4j/</guid>
       <description>&lt;p&gt;The widely-used java logging library, Log4j, has an unauthenticated remote code execution (RCE) and denial of service vulnerability if a user-controlled string is logged. This could allow the attacker full control of the affected server or allow an attacker to conduct a denial of service attack.&lt;/p&gt;</description>
     </item>
     
