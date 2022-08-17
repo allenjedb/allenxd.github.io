@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on haxxxnotes</title>
+    <link>https://allenxd.github.io/posts/</link>
+    <description>Recent content in Posts on haxxxnotes</description>
+    <image>
+      <url>https://allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://allenxd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://allenxd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NoName - Proving Grounds</title>
+      <link>https://allenxd.github.io/posts/noname/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://allenxd.github.io/posts/noname/</guid>
+      <description>&lt;p&gt;NoName is an intermediate rated Proving Grounds Play machine that covers command injection and SUID privesc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Potato - Proving Grounds</title>
+      <link>https://allenxd.github.io/posts/potato/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://allenxd.github.io/posts/potato/</guid>
+      <description>&lt;p&gt;Potato is an easy rated Proving Grounds Play machine that covers LFI and command injection.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bookstore - TryHackMe</title>
+      <link>https://allenxd.github.io/posts/bookstore/</link>
+      <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://allenxd.github.io/posts/bookstore/</guid>
+      <description>&lt;p&gt;Medium rated TryHackMe achine that covers some basic API pentesting, fuzzing the API using our own python script to gain User access and analyzing a C program using &lt;strong&gt;&lt;em&gt;Ghidra&lt;/em&gt;&lt;/strong&gt; to escalate privilege to Root.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mustacchio - TryHackMe</title>
+      <link>https://allenxd.github.io/posts/mustacchio/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://allenxd.github.io/posts/mustacchio/</guid>
+      <description>&lt;p&gt;A TryHackMe machine that covers XXE vulnerability to read sensitive user info like ssh-keys, this machine also covers some basic hash cracking while the privilege escalation will use a Path Variable vulnerability in a log_monitoring program.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Log4Shell</title>
+      <link>https://allenxd.github.io/posts/log4j/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://allenxd.github.io/posts/log4j/</guid>
+      <description>&lt;p&gt;The widely-used java logging library, Log4j, has an unauthenticated remote code execution (RCE) and denial of service vulnerability if a user-controlled string is logged. This could allow the attacker full control of the affected server or allow an attacker to conduct a denial of service attack.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

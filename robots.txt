@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://allenxd.github.io/sitemap.xml
