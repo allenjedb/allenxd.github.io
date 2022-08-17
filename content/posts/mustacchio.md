@@ -1,5 +1,5 @@
 ---
-title: Mustacchio - TryHackMe
+title: Mustacchio Writeup - TryHackMe
 date: 2022-01-21
 categories:
   - Writeup

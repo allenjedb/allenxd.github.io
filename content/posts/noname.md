@@ -1,5 +1,5 @@
 ---
-title: NoName - Proving Grounds
+title: NoName Writeup- Proving Grounds
 date: 2022-07-27
 excerpt: "NoName is an intermediate rated Proving Grounds Play machine that covers command injection and SUID privesc."
 categories:

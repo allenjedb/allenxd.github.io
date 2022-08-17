@@ -1,5 +1,5 @@
 ---
-title: Bookstore - TryHackMe
+title: Bookstore Writeup - TryHackMe
 date: 2022-01-22
 categories:
   - Writeup
