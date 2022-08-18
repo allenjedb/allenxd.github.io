@@ -1585,7 +1585,7 @@ Port 53 Open
 - Nmap box before installing target app then nmap again after
 - install [Microsoft Attack Surface Analyzer](https://github.com/microsoft/AttackSurfaceAnalyzer) run before installing the target app then run again after 
 - Sysinternals
-- DLL Hijacking
+- DLL Hijacking [Hijacklib](https://hijacklibs.net/)
 
 ## fast as ffff scan
 
