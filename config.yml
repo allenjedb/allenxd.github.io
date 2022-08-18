@@ -77,10 +77,10 @@ params:
     Content: Writeups, and all the things that I think is useful
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/all3nxd"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/bertoldoallenjed/"
+#    - name: twitter
+#      url: "https://twitter.com/all3nxd"
+#    - name: linkedin
+#      url: "https://www.linkedin.com/in/bertoldoallenjed/"
 #    - name: github
 #      url: "https://github.com/"
 
