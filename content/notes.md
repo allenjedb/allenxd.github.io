@@ -1744,7 +1744,7 @@ parameter discovery
 
 `burp-parameter-names.txt`
 
-`wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt --hc 404,301 "http://offsecwp:80/index.php?FUZZ=data"`
+`wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt --hc 404,301 "http://target:80/index.php?FUZZ=data"`
 
 `wfuzz -c -z file,/usr/share/seclists/Passwords/xato-net-10-million-passwords-100000.txt --hc 404 -d "log=admin&pwd=FUZZ" http://target:80/wp-login.php`
 
