@@ -14,10 +14,6 @@ ShowToc: true
 Offensive Security Web Assessor (OSWA) certification is a newly released course from Offensive Security, this course focusses on how to exploit common web vulnerabilities and exfiltrate data or gain code execution on the target web server. 
 <!--more-->
 
-## OSWA Certification Review
-
-Offensive Security Web Assessor (OSWA) certification is a newly released course from Offensive Security, this course focusses on how to exploit common web vulnerabilities and exfiltrate data or gain code execution on the target web server. The course covers the following topics:
-
 - CORS Misconfigurations
 - Cross-Site Scripting
 - SQL Injection
