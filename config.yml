@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "haxxxnotes \U0001f58d\uFE0F"
-    Content: Writeups, and all the things that I think is useful
+    Content: Writeups, and all the things that I think is useful. Actual Notes is up there \u2197\uFE0F
 
   socialIcons:
 #    - name: twitter
