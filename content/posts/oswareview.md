@@ -26,7 +26,7 @@ Offensive Security Web Assessor (OSWA) certification is a newly released course 
 
 ## Course Experience
 
-Each topics in the course includes exercises that gives the practical experience feel to the students which I think is really good instead of just reading and watching the videos included in the course. Although, the exercise instructions can be improved as a couple of times from my experience where I got stuck as the instructions/questions are not clear enough. This is where the Discord community became really helpful though as there are community moderators that are ready help with every questions that we have regarding the course. 
+Each topics in the course include exercises that gives the practical experience feel to the students which I think is really good instead of just reading and watching the videos included in the course. Although, the exercise instructions can be improved as a couple of times from my experience where I got stuck as the instructions/questions are not clear enough. This is where the Discord community became really helpful though as there are community moderators that are ready help with every questions that we have regarding the course. 
 
 I think the OSWA course did a great job in explaining every topics in the course and is enough to actually pass the exam. I find most of the topics feels easy enough to follow but maybe this is because I already did the PortSwigger Academy labs, so If you worked through the PortSwigger Academy labs that would greatly help you through this course.
 
@@ -36,7 +36,7 @@ To pass the exam the student needs 70 out of the 100 points, 10 points per flag.
 
 ## Exam Prep
 
-I enrolled in this course at February 2022 and been studying on and off as I have a full time job. While going through the course I made sure to take notes of every commands and script that could be helpful for the exam, once i finished the course topics I started working on the challenge labs and creating a writeup for them in my notes, taking note of what commands worked and did not work etc. this proved helpful on exam time as I can just copy and paste commands and scripts from it making the whole exploitation faster which is critical as we only have a day to solve the boxes.
+I enrolled in this course at February 2022 and been studying on and off as I have a full time job. While going through the course I made sure to take notes of every commands and script that could be helpful for the exam, once i finished the course topics I started working on the challenge labs and creating a writeup for them in my notes, taking note of what commands worked and did not work etc. this proved helpful on exam time as I can just copy and paste commands and scripts from it making the whole exploitation faster which is critical as we only have a day to solve five boxes.
 
 I also finished some proving grounds play/practice machines, just to improve my speed in enumerating boxes. It would have been easier if the filter function in proving grounds play/practice works so you can focus on boxes related to OSWA topics but at the time of my studying it is not working. Some of the most helpful boxes I found that actually covers the topics in OSWA are listed below:
 
@@ -66,7 +66,7 @@ After writing the report and copy pasting a bunch of commands it is time to subm
 
 A day after submitting my report I went to the exam page of WEB-200 and to my surprise it says that I passed even though I have not received an email yet, after a couple of days I received the confirmation email from offensive security.
 
-<kbd>![](/static/assets/images/certs/oswa/2022-08-28-23-31-19.png)</kbd>
+<kbd>![](/assets/images/certs/oswa/2022-08-28-23-31-19.png)</kbd>
 
 ## Tips
 
