@@ -565,7 +565,7 @@ What to look for?
 <p>Welcome to our site!</p>
 <?php 
 if ($isAdmin) {
-  echo "<p>You are the supreme leader and we love you</p>";
+  echo "<p>Henlo</p>";
 }
 ?>
 ```
@@ -584,7 +584,7 @@ if ($isAdmin) {
 #### Freemarker
 ```java
 <h1>Hello ${name}!</h1> // INTERPOLATION $
-<#if name == "hacker"> //FTL TAG starts with #
+<#if name == "allenxd"> //FTL TAG starts with #
 The top reasons you're great:
   <#list reasons as reason> 
    ${reason?index + 1}: ${reason}
@@ -598,10 +598,10 @@ The top reasons you're great:
 #### Pug (jade) [PAYLOAD GENERATOR](https://github.com/VikasVarshney/ssti-payload)
 ```javascript
 h1 Hello, #{name}
-input(type='hidden' name='admin' value='true')
+input(type='hidden' name='allenxd' value='true')
 
 if showSecret
-  - secret = ['❤️','😍', '🤟']
+  - secret = ['x','y', 'z']
   p The secrets are: 
   each val in secret
     p #{val}
@@ -623,7 +623,7 @@ PAYLOAD
 ```python
 <h1>Hey {{ name }}</h1>
 {% if reasons %}
-Here are a couple of reasons why you are great:
+henlo here are the reasons:
 <ul>
 {% for r in reasons %}
 	<li>{{r}}</li>
@@ -723,7 +723,7 @@ We are using handlebars locally in your browser to generate this template
 ]>
 <Contact>
   <lastName>&lastname;</lastName>
-  <firstName>Tom</firstName>
+  <firstName>allenxd</firstName>
 </Contact>
 ```
 
