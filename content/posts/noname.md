@@ -12,7 +12,7 @@ ShowToc: true
 
 ---
 
-NoName is an intermediate rated Proving Grounds Play machine that covers command injection and SUID privesc. 
+NoName is an intermediate Proving Grounds Play machine that covers command injection and SUID privesc. 
 <!--more-->
 ## NMAP
 
