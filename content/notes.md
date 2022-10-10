@@ -546,6 +546,7 @@ What to look for?
 - Nice labs from [PortSwigger](https://portswigger.net/web-security/all-labs)
 - Look for injectable parameters and then fuzz - [PayloadAllthethings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Intruder/ssti.fuzz) has a good wordlists.
 - Check template statements like ex: dropdown where you can choose if you want to display firstname, Lastname etc. try to break out of the template statement `firstname}}{{7*7` [Port Swigger](https://portswigger.net/research/server-side-template-injection)
+- Tornado lab in portswigger this worked `{{2*2}}{%+import+os+%25}{{os.system('whoami')}}` [hacktricks](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection)
 - ex: `{% import os %}{{ os.popen("whoami").read() }}`
 - After finding a vulnerable parameter and determining what template engine is used. go to [PayloadAlltheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection) to check for code executions.
 
