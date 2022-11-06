@@ -1010,6 +1010,7 @@ Some browsers will block a cookie with `SameSite=None` if the `Secure` flag is n
 - Don't forget to `git init`
 - first 2 characters is directory `c3646db7f9c7e6f126c75900fdcce16d50e1da82` = `/.git/objects/c3/646db7f9c7e6f126c75900fdcce16d50e1da82`
 - `git cat-file -p c3646db7f9c7e6f126c75900fdcce16d50e1da82`
+- or use git tools [extractor](https://github.com/internetwache/GitTools/tree/master/Extractor)
 
 ### HTTP Request Smuggling
 
