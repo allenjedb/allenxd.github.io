@@ -9,20 +9,11 @@
       <link>https://blog.allenxd.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.allenxd.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Offensive Security</title>
-      <link>https://blog.allenxd.com/tags/offensive-security/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.allenxd.com/tags/offensive-security/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.allenxd.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Command Injection</title>
       <link>https://blog.allenxd.com/tags/command-injection/</link>
-      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.allenxd.com/tags/command-injection/</guid>
       <description></description>
@@ -31,9 +22,18 @@
     <item>
       <title>SUID</title>
       <link>https://blog.allenxd.com/tags/suid/</link>
-      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.allenxd.com/tags/suid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Offensive Security</title>
+      <link>https://blog.allenxd.com/tags/offensive-security/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.allenxd.com/tags/offensive-security/</guid>
       <description></description>
     </item>
     

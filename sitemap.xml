@@ -3,16 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   
+  <url>
+    <loc>https://blog.allenxd.com/posts/assertion101/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
   
   
   
   
   <url>
     <loc>https://blog.allenxd.com/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  
+  
+  
+  <url>
+    <loc>https://blog.allenxd.com/posts/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -27,19 +55,6 @@
   
   
   
-  <url>
-    <loc>https://blog.allenxd.com/posts/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
   
   
   <url>
@@ -48,12 +63,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  
-  
-  
-  
-  
-  
   
   
   

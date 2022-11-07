@@ -9,7 +9,16 @@
       <link>https://blog.allenxd.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.allenxd.com/categories/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.allenxd.com/categories/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assertion101 Writeup- Proving Grounds</title>
+      <link>https://blog.allenxd.com/posts/assertion101/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.allenxd.com/posts/assertion101/</guid>
+      <description>&lt;p&gt;Assertion101 is an intermediate rated Proving Grounds Play machine that covers command injection in PHP assert and SUID privesc.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>NoName Writeup- Proving Grounds</title>
       <link>https://blog.allenxd.com/posts/noname/</link>
