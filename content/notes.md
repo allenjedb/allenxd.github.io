@@ -288,6 +288,10 @@ Sometimes you don't need the **'**
 
 `hydra -C /usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt 192.168.120.161 ftp`
 
+### mysql
+
+`hydra -l 'root' -P ~/tools/SecLists/Passwords/rockyou.txt 192.168.134.118 mysql` 
+
 ## TCPdump
 
 ### Monitor your injections with tcpdump
