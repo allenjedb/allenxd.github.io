@@ -1,5 +1,7 @@
 ---
 title: Potato Writeup - Proving Grounds
+date: 2022-07-23T07:00:00+00:00
+excerpt: "Potato is an easy rated Proving Grounds Play machine that covers LFI and command injection."
 categories:
   - Writeup
   - Proving_Grounds
@@ -10,7 +12,8 @@ tags:
 ShowToc: true
 
 ---
-
+Potato is an easy rated Proving Grounds Play machine that covers LFI and command injection.
+<!--more-->
 ## NMAP
 
 ```bash
