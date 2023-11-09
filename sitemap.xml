@@ -69,13 +69,24 @@
   
   
   <url>
-    <loc>https://blog.allenxd.com/posts/bookstore/</loc>
-    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <loc>https://blog.allenxd.com/posts/potato/</loc>
+    <lastmod>2022-07-23T07:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://blog.allenxd.com/posts/bookstore/</loc>
+    <lastmod>2022-01-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
   
   
   
@@ -123,16 +134,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  
-  
-  
-  <url>
-    <loc>https://blog.allenxd.com/posts/potato/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
   
   
   
