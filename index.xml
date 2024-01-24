@@ -21,6 +21,18 @@
     </item>
     
     <item>
+      <title>Devvortex Writeup- Hackthebox</title>
+      <link>https://blog.allenxd.com/posts/devvortex/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.allenxd.com/posts/devvortex/</guid>
+      <description>administrator/index.php?option=com_content&amp;amp;view=articles http://dev.devvortex.htb/api/index.php/v1/config/application?public=true
+Joomla
+user: lewis pass: P4ntherg0t1n5r3c0n##
+ZI7zLTbaGKliS9gq</description>
+    </item>
+    
+    <item>
       <title>OSWA Review - Offensive Security</title>
       <link>https://blog.allenxd.com/posts/oswareview/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
@@ -86,20 +98,11 @@ Check for usernames enum4linux -a 10.10.10.10 Smbclient smbclient -L //10.10.10.
     
     <item>
       <title></title>
-      <link>https://blog.allenxd.com/posts/devvortex/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.allenxd.com/posts/devvortex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://blog.allenxd.com/posts/surveillance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.allenxd.com/posts/surveillance/</guid>
-      <description></description>
+      <description>ZoneMinderPassword2023 CraftCMSPassword2023! starcraft122490 </description>
     </item>
     
     

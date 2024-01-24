@@ -21,6 +21,18 @@
     </item>
     
     <item>
+      <title>Devvortex Writeup- Hackthebox</title>
+      <link>https://blog.allenxd.com/posts/devvortex/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.allenxd.com/posts/devvortex/</guid>
+      <description>administrator/index.php?option=com_content&amp;amp;view=articles http://dev.devvortex.htb/api/index.php/v1/config/application?public=true
+Joomla
+user: lewis pass: P4ntherg0t1n5r3c0n##
+ZI7zLTbaGKliS9gq</description>
+    </item>
+    
+    <item>
       <title>NoName Writeup- Proving Grounds</title>
       <link>https://blog.allenxd.com/posts/noname/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
