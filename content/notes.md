@@ -94,7 +94,7 @@ With group_concat **_--- use when there's only 1 column? and sql is only showing
 
 ### Reading and Writing Files
 
-- Postgresql
+- Postgresql;
     - To read a file and then save to a table `create table tmp(data text); copy tmp from '/etc/passwd'; select * from tmp;`
     - Alternative is `select pg_read_file('/etc/passwd')`
 - MYSQL
