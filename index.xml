@@ -84,6 +84,24 @@
 Check for usernames enum4linux -a 10.10.10.10 Smbclient smbclient -L //10.10.10.10 smbclient -L //10.10.10.10 -N No password (SMB Null session) smbclient --no-pass -L 10.10.10.10 smbclient //10.10.10.10/share_name nmap -script=smb-vuln\* -p445 192.168.103.40 Smbmap smbmap -H 10.10.10.10 smbmap -H 10.10.10.10 -u &#39;&#39; -p &#39;&#39; smbmap -H 10.10.10.10 -s share_name CrackMapExec crackmapexec smb 10.10.10.10 -u &#39;&#39; -p &#39;&#39; --shares crackmapexec smb 10.10.10.10 -u &#39;sa&#39; -p &#39;&#39; --shares crackmapexec smb 10.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://blog.allenxd.com/posts/devvortex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.allenxd.com/posts/devvortex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blog.allenxd.com/posts/surveillance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.allenxd.com/posts/surveillance/</guid>
+      <description></description>
+    </item>
+    
     
   </channel>
 </rss>
